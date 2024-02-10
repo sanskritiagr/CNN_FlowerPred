@@ -9,3 +9,9 @@ Then later I used Resnet50, EfficientNet and VGG pre-defined weights to train fo
 At first, I tried to write the function using some commonly used parameters for the function. It gave good accuracy for my basic CNN model but not for other models I used. So, I tried to use  tensorflow.keras.applications.resnet50.preprocess_input which boosted up my accuracy upto 88%.
 ## Model Training
 I compiled the models using 'categorical_crossentropy' loss and 'adam' optimizer. Loss and accuracy was calculated for each epoch which is later plotted. I was able to run only 10 epochs because of hardware limitations but I believe the model will be able to get much higher accuracy if it trained a little longer.
+## Accuracy
+1. Basic CNN model: Best Validation Set Accuracy: 51.39%
+2. Resnet50: Best Validation Set Accuracy: 88.35%
+3. EfficientNet: Best Validation Set Accuracy: 87.24%
+4. VGG16: Best Validation Set Accuracy: 82.53%
+   
