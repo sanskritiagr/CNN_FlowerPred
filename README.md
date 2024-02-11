@@ -1,5 +1,6 @@
 # CNN_FlowerPred
-This repository contains a machine learning model built with Convolutional Neural Networks (CNN) for predicting flower species from images. The model is trained on a dataset of flower images with corresponding labels of different flower species.
+This repository contains a machine learning model built with Convolutional Neural Networks (CNN) for predicting flower species from images. The model is trained on a dataset of flower images with corresponding labels of different flower species. I downloaded the data from a kaggle competition. It can be accessed using: </br>
+https://drive.google.com/drive/folders/1YczEVJNQHzgzLrEJIE9puceFw96DtSJw?usp=drive_link
 ## Dataset
 The dataset used for training and evaluating the model consists of a diverse collection of flower images. Each image in the dataset is labeled with the corresponding flower species, allowing the model to learn to distinguish between different types of flowers like, tulip, sunflower, rose, daisy, dandelion. The dataset is split into training and validation set to evaluate the model's performance and prevent overfitting.
 ## Model Architecture
