@@ -15,4 +15,6 @@ I compiled the models using 'categorical_crossentropy' loss and 'adam' optimizer
 2. Resnet50: Best Validation Set Accuracy: 88.35%
 3. EfficientNet: Best Validation Set Accuracy: 87.24%
 4. VGG16: Best Validation Set Accuracy: 82.53%
-   
+</br>
+The resnet model is saved as .h5 file. It can be accessed using:</br>
+https://drive.google.com/file/d/1DgoWYiU4oMgCktU-XjvdEIUFQ_3QxIzK/view?usp=sharing
